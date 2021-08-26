@@ -1,0 +1,39 @@
+.number{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #3d75db;
+    border-radius: 20px;
+    width:25px;
+    height:25px;
+    font-size: small;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+.number:hover{
+    width:30px;
+    height:30px;
+}
+.number_large:hover{
+    width:30px;
+    height:30px;
+}
+.number_large{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #3d75db;
+    border-radius: 20px;
+    width:35px;
+    height:35px;
+    font-size: small;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    :hover{
+        background-color:#f2f2f2
+    }
+}

@@ -1,0 +1,45 @@
+.logoff{
+    background-color: white;
+    display: flex;
+    width: 80%;
+    height:35px;
+    color:#606060;
+    font-size: small;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    box-shadow: 3px 0px 8px 0px rgba(0, 0, 0, .3);
+    &:hover{
+        color:white;
+        background-color:#6daba8;
+    }
+    &>*{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_text{
+        height:100%;
+        flex-grow: 3;
+        border: none;
+        outline: none;
+        padding: 0;
+        
+    }
+    &_logo{
+        flex-grow: 1;
+        height: 100%;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        &>*{
+            height: 30px;
+            width: 30px;
+            border-radius: 20px;
+        }
+    }
+}
